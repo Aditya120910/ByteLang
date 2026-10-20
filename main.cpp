@@ -33,8 +33,7 @@ int main(int argc, char*argv[]) {
             } else if (arr[i] == '*') {
                 memory = 0;
             } else {
-                std::cerr << "ERROR: Invalid symbol '" << arr[i] << "'\n";
-                return 1;
+                continue;
             }
         }
     }
