@@ -9,7 +9,7 @@ The language works on a single byte of memory, which ranges from 0 to 255.
 To Increase the value of the byte, use '+'
 To decrease the value of the byte, use '-'
 To clear the byte, use '*'
-To print the byte's ASCII value, use *
+To print the byte's ASCII value, use '.'
 
 #### Note:
 The byte will go back to o from 255 if increase further
